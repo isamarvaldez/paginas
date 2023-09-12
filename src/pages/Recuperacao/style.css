@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color: #003D73;
+}
+
+.esquerda {
+    width: 45%;
+    background-color: #ffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagen1 {
+    display: flex;
+    justify-content: center;
+    /* background-color: yellowgreen; */
+    padding: 4%;
+    /* height: 30%; */
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+
+.Texto_recuperacao {
+    font-size: 23px;
+    margin-left: 8px; 
+}
+
+/* .imagen1 img {
+    width: 39%;
+    height: 80%;
+    margin-top: 50px;
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    width: 100%;
+}
+
+.imagen2 img {
+    display: none;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+.logo_principal {
+    height: 130px;
+    margin-top: 50px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #1B77C2;
+    color: white;
+    border: none;
+}
+
+.recuperacao_deconta {
+    display: flex;
+    height: 100vh;
+    width: 80%;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.Pronto{
+    margin-left: 10px;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.recuperadcaodeconta1 {
+    /* padding: 59px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 60%;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.recuperadcaodeconta1 p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    height: 20px;
+    width: 244px;
+}
+
+.recuperadcaodeconta1 input {
+    padding: 18px;
+}
+
+.recuperadcaodeconta1 button {
+    padding: 11px;
+    text-align: center;
+    margin-top: 30px;
+    width: 225px;
+    margin-right: 8px;
+}
+
+.rodape {
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;  
+    color: #938686;
+}
+
+.imagenrodape{
+ margin-left: 5px;
+ margin-bottom: px;
+}
+
+.direito {
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.direito img {
+    display: flex;
+    align-items: end;
+    width: 90%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+.testeresponsividade {
+    font-size: 12px;
+}
+    
+.imagenrodape {
+    width: 70px;
+    margin-left: 1px;   
+}
+
+.recuperadcaodeconta1 {
+    /* padding: 59px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 60%;
+    align-items: center;
+    margin-top: 30px;
+}
+
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+body {
+    flex-direction: column;
+}
+
+.direito {
+    display: none;
+}
+
+.esquerda {
+    background-image: url(img/testeFUNDOmobile.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    }
+
+.rodape {
+    display: none;
+    }
+
+}

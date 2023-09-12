@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+}
+#Possplash {
+    display: flex;
+    
+}
+
+.logopagina1 {
+    font-size: 15px;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 70px;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+
+.esquerda {
+    padding: 40px;
+    height: 100vh;
+    width: 45%;
+}
+
+.direito {
+    background-color: #003d73;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 55%;
+    justify-content: space-evenly;
+}
+
+.logoclaro img {
+    width: 60%;
+}
+
+.logoclaro {
+    display: flex;
+    justify-content: center;
+}
+    
+.centro {
+    display: flex;
+    height: 75%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.centro a {
+    padding: 12px 0;
+    background-color: #0B7ABF;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 155px;
+    font-family: 'Lato', sans-serif; 
+    height: 51px;
+ }
+
+.direito h3{
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.h2p {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.h2p p {
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.teste_Container {
+    margin-left: 80px;
+    }
+
+.container2 {
+    margin-left: 8px;
+}
+
+.Alcancar {
+    font-size: 50px;
+    width: 381px;
+    margin-top: 130px;
+}
+
+.oferecer {
+    font-size: 20px;
+    font-weight: 350;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.integradash_texto {
+    width: 140px;
+}
+
+.sobre_a_marca {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+ 
+.inovacao {
+    font-size: 20px;
+    font-weight: 400;
+    width: 600px;
+    text-align:justify;
+    margin-bottom: 40px;
+}
+
+.botao {
+    margin-top: 50px;
+}
+
+
+        /* RESPONSIVIDADE 01 */
+
+@media screen and (max-width: 1255px)
+{
+
+.inovacao {
+    font-size: 17px;
+    font-weight: 80%;
+    width: 80%;
+    text-align:justify;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.sobre_a_marca {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.Alcancar {
+    font-size: 38px;
+    width: 73%;
+    margin-left: 55px;
+    margin-top: 110px;
+}
+
+.oferecer {
+    font-size: 17px;
+    font-weight: 350;
+    width: 83%;
+    margin-bottom: 50px;
+    margin-left: 55px;    
+}
+
+.integradash_texto {
+    width: 110px;
+}
+
+.botao {
+    margin-top: 40px;
+    margin-left: 55px;
+    font-size: 14px;
+}
+
+.centro a {
+    width: 130px;
+    height: 45px;
+    position: relative;
+    bottom: 40px;   
+}
+
+}
+
+
+
+        /* RESPONSIVIDADE 02 */
+
+@media screen and (max-width: 800px)
+{
+
+.inovacao { 
+    font-size: 16px;
+    font-weight: 80%;
+    width: 75%;
+    text-align:justify;
+    margin-bottom: 130px;
+    margin-left: 45px;
+}
+
+.sobre_a_marca {
+    font-weight: 550;
+    font-size: 25px;
+    margin-left: 45px;
+}
+
+.Alcancar {  
+    font-size: 30px;
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.oferecer {
+    font-size: 16px;
+    font-weight: 350;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.integradash_texto {
+    width: 95px;
+}
+
+.botao {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.centro a {
+    width: 110px;
+    height: 40px;
+    margin-top: 25px;
+}
+
+}
+
+
+     /* RESPONSIVIDADE 03 */
+
+@media screen and (max-width: 600px)
+{
+
+.inovacao {
+    font-size: 14px;
+    font-weight: 80%;
+    width: 70%;
+    text-align:justify;
+    margin-bottom: 120px;
+    margin-left: 40px;
+}
+
+.sobre_a_marca {
+    font-weight: 550;
+    font-size: 21px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.Alcancar {  
+    font-size: 25px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 10px; 
+}
+
+.oferecer {
+    font-size: 15px;
+    font-weight: 350;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.integradash_texto {
+    width: 85px;
+}
+
+.botao {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.centro a {
+    width: 90px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
