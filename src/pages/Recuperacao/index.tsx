@@ -1,46 +1,63 @@
-import '../Recuperacao/style.css'
-// import logo01 from "../../assets/img/Logo_Integradash_fundo_claro01.png"
-import logo2 from "../../assets/img/logo2.png"
-import integradash from "../../assets/img/DESENVOLVIDO_POR_CERTO.png"
-import imagenD from "../../assets/img/imagendireito.png"
+
+import './style.css'
+
+import logoIntegraDash from "../../assets/img/Logo IntegraDash.png"
+import logoCompleto from "../../assets/img/Integrdash logo completo D logo f escuro.png"
+import desenvolvido from "../../assets/img/DESENVOLVIDO POR CERTO.png"
+import group36 from "../../assets/img/Group 36-1.png"
 
 function Recuperacao() {
 
   return (
-    <>
-      <section className="esquerda">
 
-        <div className="recuperacao_deconta">
-        </div>
 
-        <div className="imagen2">
-          <img src={logo2}
-            alt="" />
-        </div>
+<>
+  <section className="paginatotal">
+    <div className="quadrado_branco">
+      {/* <div class="alinhamento_login"> */}
+      <img
+        className="Logo_Integradash"
+        src={logoIntegraDash}
+        alt="Logo da Instegradash Fundo Claro"
+      />
+      <img
+        className="Logo_Claro"
+        src={logoCompleto}
+        alt="Logo da Instegradash Fundo Escuro"
+      />
+      <div className="teste1">
+        <h1>Recuperação de conta</h1>
+        <form className="alinhamento_input" action="login">
+          {/* <label class="negrito" for="email">Insira o seu email</label> */}
+          <h2>Pronto. Verifique o seu email e faça a redefinição de senha.</h2>
+          <div className="zoinho">
+            {/* <input class="senha" id="senha" type="password" name="Senha" id="Senha" placeholder="nome@gmail.com">
+                      <img class="zoio" src="img/zoio.png" alt="mostrar - ocultar password">
+                       */}
+          </div>
+          <button className="botao_entrar">Voltar</button>
+        </form>
+      </div>
+      <div>
+        <img
+          className="desenvolvido_por"
+          src={desenvolvido}
+          alt="Desenvolvido por Integradash"
+        />
+      </div>
+    </div>
+    <section className="pagina_metade1">
+      <div>
+        <img
+          className="rapaz_dashboard"
+          src={group36}
+          alt="Rapaz em frente a um Dashboard apontando pra ele"
+        />
+      </div>
+    </section>
+  </section>
+</>
 
-        <div className="recuperadcaodeconta1">
-          <p className="Texto_recuperacao">Recuperação de conta</p>
-          <p className="Pronto">
-            Pronto. Verifique o seu email e faça a redefinição de sua senha.
-          </p>
-          <button>Voltar</button>
-        </div>
-
-        <div className="rodape">
-          <p className="testeresponsividade">
-            Dashboard desenvolvido por{" "}
-            <img src={integradash}
-              className="imagenrodape"
-              alt="" />
-          </p>
-        </div>
-      </section >
-      <section className="direito">
-        <img src={imagenD}
-          className="teste"
-          alt="" />
-      </section>
-    </>
   )
 }
 export default Recuperacao
